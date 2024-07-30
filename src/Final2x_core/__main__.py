@@ -79,8 +79,8 @@ def main() -> None:
 
     logger.success("______SR_COMPLETED______")
 
-    OP = Path(config.outputpath) / "outputs"
-    open_folder(str(OP))
+    # OP = Path(config.outputpath) / "outputs"
+    # open_folder(str(OP))
 
 
 if __name__ == "__main__":
